@@ -14,12 +14,12 @@ class BaseDeDatos {
     constructor() {
 
         this.productos = [];
-            this.agregarRegistro(1, "Macbook Pro", 1499, "Tecnologia", "macbook.jpg");
-            this.agregarRegistro(2, "Mouse Apple", 299, "Tecnologia", "mouse.jpg");
-            this.agregarRegistro(3, "Iphone 14 Pro Max", 1299, "Tecnologia", "iphone.jpg");
-            this.agregarRegistro(5, "Apple Watch", 199, "Tecnologia", "smart-watch.jpg");
-            this.agregarRegistro(6, "Joystick Ps4", 59, "Tecnologia", "joystick.jpg");
-            this.agregarRegistro(6, "Monitor Apple", 1559, "Tecnologia", "monitor.jpg");
+            this.agregarRegistro(1, "Macbook Pro", 1499, "Tecnologia", "./img/macbook.jpg");
+            this.agregarRegistro(2, "Mouse Apple", 299, "Tecnologia", "./img/mouse.jpg");
+            this.agregarRegistro(3, "Iphone 14 Pro Max", 1299, "Tecnologia", "./img/iphone.jpg");
+            this.agregarRegistro(5, "Apple Watch", 199, "Tecnologia", "./img/smart-watch.jpg");
+            this.agregarRegistro(6, "Joystick Ps4", 59, "Tecnologia", "./img/joystick.jpg");
+            this.agregarRegistro(6, "Monitor Apple", 1559, "Tecnologia", "./img/monitor.jpg");
     }
 
     agregarRegistro(id, nombre, precio, categoria, imagen) {
