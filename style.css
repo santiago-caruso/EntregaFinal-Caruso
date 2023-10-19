@@ -54,7 +54,7 @@
     cursor: pointer;
     color: white;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
-    background: url("img/img/carrito.png") no-repeat #fcfcfc;
+    background: url("img/carrito.png") no-repeat #fcfcfc;
     background-size: 60%;
     background-position: 9px center;
   }
