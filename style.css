@@ -85,10 +85,33 @@
     border: 1px solid #244ced;
     transition: all 0.2s;
   }
-  .btnAgregar:hover,
-  .btnQuitar:hover {
-    border: 1px solid rgb(0, 0, 0);
+  
+  .boton{
+    color: white;
+    background-color: #5e7bef;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #657fea;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-bottom: 20px;
   }
+  
+  .btnAgregar:hover,
+  .btnQuitar:hover,
+  .boton:hover {
+    border: 1px solid white;
+    scale: 1.05;
+  }
+
+  .boton.seleccionado{
+    border: 4px solid white;
+    background-color: burlywood;
+  }
+  
   .productoCarrito {
     border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
     padding: 10px 0;

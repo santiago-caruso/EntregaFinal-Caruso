@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre" : "Macbook Pro",
+        "precio" : "1499",
+        "categoria" : "Computación",
+        "imagen": "macbook.jpg"
+    },
+
+    {
+        "id": 2,
+        "nombre" : "Mouse Apple",
+        "precio" : "299",
+        "categoria" : "Computación",
+        "imagen": "mouse.jpg"
+    },
+
+    {
+        "id": 3,
+        "nombre" : "Iphone 14 Pro Max",
+        "precio" : "1299",
+        "categoria" : "Apple",
+        "imagen": "iphone.jpg"
+    },
+
+    {
+        "id": 4,
+        "nombre" : "Apple Watch",
+        "precio" : "199",
+        "categoria" : "Apple",
+        "imagen": "smart-watch.jpg"
+    },
+
+    {
+        "id": 5,
+        "nombre" : "Joystick Ps4",
+        "precio" : "59",
+        "categoria" : "Gaming",
+        "imagen": "joystick.jpg"
+    },
+
+    {
+        "id": 6,
+        "nombre" : "Monitor Apple",
+        "precio" : "1559",
+        "categoria" : "Computación",
+        "imagen": "monitor.jpg"
+    },
+
+    {
+        "id": 7,
+        "nombre" : "Joystick Ps5",
+        "precio" : "99",
+        "categoria" : "Gaming",
+        "imagen": "ps5.jpg"
+    },
+
+    {
+        "id": 8,
+        "nombre" : "PlayStation 4 Slim",
+        "precio" : "149",
+        "categoria" : "Gaming",
+        "imagen": "ps4.jpg"
+    }
+]

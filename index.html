@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TecnoWorld</title>
 
     <!--Tipografia Ubuntu-->
@@ -10,19 +10,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css" />
-
+    <!--Link de tostify-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="style.css"/>
 </head>
-    <body>
+    
+<body>
 
-    <!--productos-->
+    
     <main>
+        <!--Barra buscadora-->
         <input id="inputBuscar" type="text" placeholder="Buscar productos..." />
+        
+        <!--Categorias-->
+        <ul>
+            <li class="boton btnCategoria" data-categoria="Apple">Apple</li>
+            <li class="boton btnCategoria" data-categoria="Gaming">Gaming</li>
+            <li class="boton btnCategoria" data-categoria="Computación">Computación</li>
+            <li class="boton btnCategoria seleccionado" data-categoria="Todos">Todos</li>
+        </ul>
+        
         <div id="productos">
+            <!--Aca se cargan los productos-->
         </div>
     </main>
 
+    <!--Carrito oculto-->
     <section class="ocultar">
         <h1>
         <span id="cantidadProductos">0</span>
@@ -36,7 +50,15 @@
         <button href="#" id="botonComprar"class="btn">Finalizar Compra</button>
 
     </section>
+    
+    <!--Link de Sweet Alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!--Link de Tostify-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!--Link del js-->
     <script src="app.js"></script>
-    </body>
+    
+</body>
+
 </html>
